@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="CreateRandomString()">随机</button>
+    <script>
+        const RandomString = '123456789abcdefghijklmnopqrstuvwxyz';
+        const RandomStringCount = RandomString.length;
+
+        
+        function CreateRandomString(){
+            for(let i = 0 ; i < 50 ; i++){      
+            const RandomStringSelector1 =Math.floor(Math.random()*RandomStringCount);
+            const RandomStringSelector2 =Math.floor(Math.random()*RandomStringCount);
+            const RandomStringSelector3 =Math.floor(Math.random()*RandomStringCount);
+            const RandomStringSelector4 =Math.floor(Math.random()*RandomStringCount);
+            const RandomStringSelector5 =Math.floor(Math.random()*RandomStringCount);
+            const RandomStringSelector6 =Math.floor(Math.random()*RandomStringCount);
+            const RS1= RandomString[RandomStringSelector1];
+            const RS2= RandomString[RandomStringSelector2];
+            const RS3= RandomString[RandomStringSelector3];
+            const RS4= RandomString[RandomStringSelector4];
+            const RS5= RandomString[RandomStringSelector5];
+            const RS6= RandomString[RandomStringSelector6];
+                console.log("com."+RS1+RS2+RS3+"."+RS4+RS5+RS6);
+        }
+    }
+    </script>
+    
+</body>
+</html>

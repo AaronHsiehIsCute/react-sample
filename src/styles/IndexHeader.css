@@ -1,0 +1,35 @@
+.indexHeader{
+    display: flex;
+    align-items: center;
+    background-color:rgb(105, 60, 30);
+}
+
+.headerAvatarWrapper {
+    margin-left: 95%; /*将头像推至右侧*/
+    width: 100vh;
+}
+
+.headerAvatar{
+    display: inline-block; 
+    text-align: right;
+}
+
+/* .userIcon{
+    text-align: right;
+} */
+
+.IndexContent{
+    padding: 10px 0 0 0;
+    margin: 20;
+    min-height: 280px;
+  }
+
+.IndexBody{
+    padding: 5px 0 0 20px ;
+}
+
+.indexHeaderMenu{
+    display: inline-block;
+    background-color: rgb(133, 79, 79);
+    min-width: 30vh;
+}

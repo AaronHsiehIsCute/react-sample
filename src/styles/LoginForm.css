@@ -1,0 +1,24 @@
+.loginContainer{
+    display: flex;
+    align-items: center; /* 垂直居中 */
+    justify-content: center; /* 水平居中 */
+    height: 100vh; /* 使容器充滿整個畫面高度 */
+}
+
+.loginBox{
+    height: 150px;
+    width: 300px;
+    padding: 50px 0 0 30px;
+    border-radius: 15px;
+    background-color:rgba(196, 187, 187, 0.5)
+}
+
+.accountInput{
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.passwordInput{
+    border-radius: 15px;
+    margin: 10px;
+}
